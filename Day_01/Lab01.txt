@@ -1,0 +1,46 @@
+Name: Hany Ali Elesawy
+
+
+1- pwd
+
+2- mkdir SAMPLE
+
+3- mkdir SAMPLE/HELLO
+
+4- mkdir /home/h3esawy/Hello
+
+5- rmdir /home/h3esawy/Hello
+
+6- mkdir -p SAMPLE/HELLO
+
+7- rm: removes a file 
+   rmdir: removes a dirctory 
+
+8- cat > .hidden.txt
+   or
+   touch .hidden.txt
+
+9- mkdir -p dir/dir1 dir/dir2
+   touch dir/dir1/file1.txt
+   mkdir docs && touch docs/WS-ITI
+
+10- absolute: home/h3esawy/docs/WS-ITI
+    relative: ./docs/WS-ITI
+
+11- $cd
+    or
+    $cd ..
+
+12- cd
+    cat my_code.txt
+    h3esawyiti
+    cat my_code.txt | grep h3esawyiti
+
+    cd Desktop
+    grep -r h3esawyiti ../ 
+    or 
+    grep -r h3esawyiti /home/h3esawy
+
+
+
+    
