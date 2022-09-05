@@ -31,7 +31,7 @@ def isValidCC(strCC):
 		return ( creditState ) 
 		
 	for strNum in strStrippedCC:
-		if strNum not in list("123456789"):
+		if strNum not in list("0123456789"):
 			creditState = False
 			return ( creditState ) 
 	
@@ -47,5 +47,5 @@ def isValidCC(strCC):
 
 #main
 
-strCC = "5122-2368-7954-3214"
+strCC = "5423-2578-8632-6589"
 print(isValidCC(strCC))
