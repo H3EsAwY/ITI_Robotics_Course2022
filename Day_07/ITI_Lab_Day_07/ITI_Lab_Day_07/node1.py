@@ -4,8 +4,20 @@
 # Name:  Hany Ali Elesawy
 # Date:  2022.09.08
 # Topic: ROS2Lab day 07
+#
+##########################
+#
+# node1 (str_publisher) tasks:
+#
+# 	publish "str_topic" --> (“ <your name> is publish <,><counter>”) and update the counter every 1 second
+#	subscribe to "reset_flag"
+#
+##########################
 # 
-# 
+# node2 ("number_counter") tasks:
+#
+#	subscribe to  "str_topic"
+#	publish "reset_flag" --> is set to True when the counter from node1 reaches a value of 5
 #
 ######################################################
 
