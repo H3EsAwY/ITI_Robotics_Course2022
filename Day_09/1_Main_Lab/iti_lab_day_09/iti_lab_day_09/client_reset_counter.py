@@ -8,7 +8,6 @@
 ######################################################
 
 
-from urllib import response
 import rclpy
 from rclpy.node import Node
 
