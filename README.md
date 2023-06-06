@@ -10,4 +10,4 @@
 6. ROS2 (48hrs)
 7. Final Project - catchTurtle (30hrs)
 --------
-# 8. (Bonus) Onsite internship at Tekomoro Company (30hrs)
+### 8. (Bonus) Onsite internship at Tekomoro Company (30hrs)
