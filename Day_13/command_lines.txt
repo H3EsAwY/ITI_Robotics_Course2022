@@ -1,0 +1,21 @@
+static_transform_publisher node
+Usage: static_transform_publisher x y z yaw pitch roll frame_id child_frame_id
+
+-------------------------------------------------------------------------------------
+(1) base_footprint
+ros2 run tf2_ros static_transform_publisher 0. 0. 0. 0. 0. 0. map base_footprint
+
+(2) gps_link
+ros2 run tf2_ros static_transform_publisher 0. 0. 1.77 0. 0. 0. base_footprint gps_link
+
+(3) lidar_link
+ros2 run tf2_ros static_transform_publisher 1.92 0. 0.36 0. 0. 0. base_footprint lidar_link
+
+(4) zed2_link
+ros2 run tf2_ros static_transform_publisher 1.8 -0.03 1.0 0. 0. 0. base_footprint zed2_link
+
+(5) mynt_link
+ros2 run tf2_ros static_transform_publisher -0.10 0. 0.88 -3.14 0. 0. base_footprint mynt_link
+
+(6) imu_link
+ros2 run tf2_ros static_transform_publisher 1.8 -0.50 1.0 -1.57 0. 0. base_footprint imu_link
