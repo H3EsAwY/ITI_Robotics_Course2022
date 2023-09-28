@@ -13,4 +13,10 @@
 
 **8. (Bonus) Onsite internship at Tekomoro Company (30hrs)**
 
+### ITI Robotics Certificate
+<p align="center">
+<img src="https://github.com/H3EsAwY/ITI_Robotics_Course2022/assets/75787889/342f5faf-6766-4675-bae3-fa8aea2326b0">
+</p>
+
+
 
